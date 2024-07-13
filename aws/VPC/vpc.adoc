@@ -1,0 +1,30 @@
+= AWS VPC
+
+Cloud
+
+https://app.diagrams.net/#G19EEGfLklACar9esQV7wEBBWesEzUCDa0#%7B%22pageId%22%3A%22tKnA8ANXOg2QhjS_by-o%22%7D
+
+----
+VM -> Compute -> CPU/RAM - EC2
+   -> Storage -> Hard disk - EBS
+   -> Network -> VPC
+----
+
+Services
+----
+AWS Managed -> SaaS -> S3 ->
+Customer Managed -> PaaS, Iaas -> VPC is mandatory -> EC2, RDS,
+----
+
+Gateway
+----
+Internet gateway -> Ingress and Egress
+NAT Gateway -> Egress
+----
+
+Security
+----
+NACl -> subnet -> Access and Deny
+Security Group -> Resource -> Access only.
+VPC flow logs -> Records all incoming outgoing calls
+----

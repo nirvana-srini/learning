@@ -1,0 +1,6 @@
+== AWS EC2
+
+AWS Elastic cloud computing is service that launches, also know as virtual servers (VM) used to host web pages or other applications.
+
+Storage Solution
+

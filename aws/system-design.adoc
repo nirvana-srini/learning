@@ -1,0 +1,62 @@
+= System Design Interview Questions
+
+== Requirements
+Gather system functional and non-functional requirements
+
+.Consider:
+
+* System goals +
+* Key features +
+* System constraints +
+* User expectations
+
+== Estimation
+Estimates hardware & infrastructure needed to implement at scale
+
+.Consider requirements for:
+
+* Number of servers +
+* Daily storage +
+* Network
+
+== Storage schema (optional)
+Articulate data model
+
+.Define:
+
+* Structure of data +
+* Tables to use +
+* Types of fields in tables +
+* Relationship between tables +
+
+This is done when you have the when requirements met the following:
+
+* expecting highly normalised data
+* when storing different parts of data in various formats
+* when facing performance issue in storing data
+
+== High-level design
+Prepare High level design +
+Select building blocks(DNS, CDN, Gateways, LB, Rate Limit, Cache, Queue, DB) to meet the functional requirements
+
+== APIs
+Define APIs contract/SLAs to meet the functional requirements +
+Ex: +
+Requirement: Users should be able to access all items +
+API call: GET/items
+
+== Detailed design
+Enhance high-level design  all non-functional requirements & complete design +
+( Security, Searching, Auditing, Scheduling, Monitoring, Logging, Monitoring)
+
+== Evaluation
+Review, scope, limitations
+
+* Evaluate design against requirements
+* Trade offs & advantages and disadvantages of different solutions
+* Address any design problems
+
+== Distinctive component/feature
+Discuss a distinctive feature that meets requirements
+Ex: +
+Rapido - Finding near by available drivers and shortest path for destination

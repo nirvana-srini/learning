@@ -1,0 +1,54 @@
+# Architecture Review Guidelines
+
+## 1. Purpose
+## 2. Application Abilities
+### 2.1 Reliability
+#### 2.1.1  Availability
+#### 2.1.2  Recoverability
+#### 2.1.3  Resiliency
+#### 2.1.4  Monitoring
+#### 2.1.5  Questions
+### 2.4 Performance Efficiency
+### 2.3 Scalability
+### 2.4 Maintainability
+### 2.4 Accessibility
+### 2.4 I18N/L10N
+## 3. Privacy & Security
+## 4. Operational Excellence
+Operational Excellence refers to the ability of the system to operate efficiently, reliably and securely
+
+.This can be achieved by adopting practices such as:
+* Automating Operations
+* Monitoring system performance
+* Continuously improving processes
+
+.Example: If an organisation uses AWS, they can use below services:
+* AWS CloudFormation for automating deployment of resources
+* AWS CloudWatch to monitor system performance
+* AWS Trusted Advisor to provide recommendations for improving system operations
+
+
+
+## 5. Cost Optimization
+.Cost Optimization refers to measures taken to optimise the cost across:
+ * Resource Utilization CPU, Memory and Storage
+ * Infrastructure Provisioning
+ * Licensing
+
+How to Achieve?
+
+.This can be achieved by following the below practices:
+ * Using Spot and/or reserved instances instead of  other instance types like on-demand.
+ * Sizing the resources right
+ * Adapting the serverless architecture/managed services of the cloud that can be scaled up od down as needed. Elastic in nature. This allows greater efficiency, cost effectiveness and flexibility in the system
+[%header,cols = "1,1"]
+|===
+|*Questions*|*Answers*
+|How is the system resource usage monitored and optimized to avoid unnecessary costs? | answer
+||
+||
+||
+|===
+
+## 6. Best practices adopted
+## 6. Checklist
